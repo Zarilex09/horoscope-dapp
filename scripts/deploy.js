@@ -1,5 +1,5 @@
 async function main() {
-  const Horoscope = await ethers.getContractFactory("horoscopeNFT");
+  const Horoscope = await ethers.getContractFactory("contracts/horoscopeNFT.sol:horoscopeNFT");
   console.log("Deploying Contract...")
   const horoscope = await Horoscope.deploy();
   const txHash = horoscope.deployTransaction.hash;

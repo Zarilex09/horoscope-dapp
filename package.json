@@ -17,13 +17,10 @@
     "url": "https://github.com/Zarilex09/horoscope-dapp/issues"
   },
   "homepage": "https://github.com/Zarilex09/horoscope-dapp#readme",
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
-    "ethers": "^5.7.2",
-    "hardhat": "^2.19.1"
-  },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.0.0"
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.2"
   }
 }
